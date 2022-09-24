@@ -7,7 +7,7 @@ papers:
     selected: y
 
   - title: "GAUCHE: A Library for Gaussian Processes in Chemistry"
-    authors: Ryan-Rhys Griffiths<sup>‡</sup>, Leo Klarner<sup>‡</sup>, Henry B. Moss<sup>‡</sup>, Aditya Ravuri<sup>‡</sup>, Sang Truong<sup>‡</sup>, Bojana Rankovic<sup>‡</sup>, Yuanqi Du,<sup>‡</sup>, ...,  Alpha A. Lee, Philippe Schwaller, Jian Tang
+    authors: Ryan-Rhys Griffiths<sup>‡</sup>, <b>Leo Klarner</b><sup>‡</sup>, Henry B. Moss<sup>‡</sup>, Aditya Ravuri<sup>‡</sup>, Sang Truong<sup>‡</sup>, Bojana Rankovic<sup>‡</sup>, Yuanqi Du,<sup>‡</sup>, ...,  Alpha A. Lee, Philippe Schwaller, Jian Tang
     venue: "<b>ICML '22 Workshop</b> on AI4Science"
     paper_pdf: "/assets/bias_in_the_benchmark.pdf"
     selected: y
