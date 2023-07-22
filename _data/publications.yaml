@@ -18,7 +18,7 @@ papers:
   - title: "Bias in the Benchmark: Systematic experimental errors in bioactivity databases confound multi-task and meta-learning algorithms"
     authors: "<b>Leo Klarner</b>, Michael Reutlinger, Torsten Schindler, Charlotte M. Deane, Garrett M. Morris"
     venue: "<b>NeurIPS 2022</b>"
-    venue: "<b>5th AI in Chemistry Conference</b>, Best Academic Poster Award<br>Oxford Stats Graduate Poster Session</b>, Best 1st Year Poster Award<br><b>ICML 2022 AI4Science Workshop</b>"
+    venue: "<b>5th AI in Chemistry Conference</b>, Best Academic Poster Award<br><b>Oxford Stats Graduate Poster Session</b>, Best 1st Year Poster Award<br><b>ICML 2022 AI4Science Workshop</b>"
     paper: "https://openreview.net/forum?id=Gc5oq8sr6A3&"
 
   - title: "GAUCHE: A Library for Gaussian Processes in Chemistry"
