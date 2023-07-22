@@ -1,13 +1,30 @@
 papers:
 
+  - title: "Metropolis Sampling for Constrained Diffusion Models"
+    authors: "Nic Fishman, <b>Leo Klarner</b>, Emile Mathieu, Michael Hutchinson, Valentin de Bortoli"
+    venue: "<b>arXiv pre-print</b>"
+    paper: "https://arxiv.org/abs/2307.05439"
+
+  - title: "Drug Discovery under Covariate Shift with Domain-Informed Prior Distributions over Functions"
+    authors: "<b>Leo Klarner</>, Tim G. J. Rudner, Michael Reutlinger, Torsten Schindler, Garrett M. Morris, Charlotte M. Deane, Yee Whye Teh "
+    venue: "<b>ICML 2023</b>"
+    paper_pdf: "https://proceedings.mlr.press/v202/klarner23a.html"
+
+  - title: "Diffusion Models for Constrained Domains"
+    authors: "Nic Fishman, <b>Leo Klarner</b>, Valentin De Bortoli, Emile Mathieu, Michael Hutchinson"
+    venue: "<b>TMLR 2023</b>"
+    paper: "https://openreview.net/forum?id=xuWTFQ4VGO"
+
   - title: "Bias in the Benchmark: Systematic experimental errors in bioactivity databases confound multi-task and meta-learning algorithms"
-    authors: "<b>Leo Klarner</b>, Michael Reutlinger, Torsten Schindler, Charlotte Deane, Garrett Morris"
-    venue: "<b>ICML '22 Workshop</b> on AI4Science"
-    paper_pdf: "/assets/bias_in_the_benchmark.pdf"
-    selected: y
+    authors: "<b>Leo Klarner</b>, Michael Reutlinger, Torsten Schindler, Charlotte M. Deane, Garrett M. Morris"
+    venue: "<b>5th AI in Chemistry Conference</b>, Best Academic Poster Award"
+    venue: "<b>Oxford Stats Graduate Poster Session</b>, Best 1st Year Poster Award"
+    venue: "<b>ICML 2022 AI4Science Workshop</b>"
+    paper: "https://openreview.net/forum?id=Gc5oq8sr6A3&"
 
   - title: "GAUCHE: A Library for Gaussian Processes in Chemistry"
-    authors: Ryan-Rhys Griffiths<sup>‡</sup>, <b>Leo Klarner</b><sup>‡</sup>, Henry B. Moss<sup>‡</sup>, Aditya Ravuri<sup>‡</sup>, Sang Truong<sup>‡</sup>, Bojana Rankovic<sup>‡</sup>, Yuanqi Du,<sup>‡</sup>, ...,  Alpha A. Lee, Philippe Schwaller, Jian Tang
-    venue: "<b>ICML '22 Workshop</b> on AI4Science"
-    paper_pdf: "/assets/gauche_a_library_for_gaussian.pdf"
-    selected: y
+    authors: 
+    Ryan-Rhys Griffiths<sup>‡</sup>, Leo Klarner<sup>‡</sup>, Henry B. Moss<sup>‡</sup>, Aditya Ravuri<sup>‡</sup>, Sang Truong<sup>‡</sup>, Samuel Stanton<sup>‡</sup>, Gary Tom<sup>‡</sup>, Bojana Rankovic<sup>‡</sup>, Yuanqi Du<sup>‡</sup>, Arian Jamasb<sup>‡</sup>, et al.
+    venue: "<b>ELLIS/NeurIPS 2022 ML4Molecules Workshop</b>, Contributed Talk"
+    venue: "<b>ICML 2022 AI4Science Workshop"
+    paper_pdf: "https://arxiv.org/abs/2212.04450"
