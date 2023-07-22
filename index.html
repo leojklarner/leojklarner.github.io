@@ -5,7 +5,22 @@ title: Home
 <!-- ========== About ========== -->
 <div class="docs-section" id="about">
   <h4>About</h4>
-  PhD student, Clarendon Scholar in the Oxford Protein Informatics (OPIG) and Computational Statistics & Machine Learning (OxCSML) groups. Improving the robustness of deep learning algorithms in early-stage drug discovery.
+  <p>
+    Hello! I'm a second-year PhD student at the University of Oxford, where I am developing methods to make deep
+    learning
+    algorithms more robust to common challenges in early-stage drug discovery.
+    <br><br>
+    This requires familiarity with both cutting-edge machine-learning algorithms and the realities of practical drug
+    discovery research, which I have picked up through supervision by Yee Whye Teh (Oxford/DeepMind), Charlotte Deane
+    (Oxford/Exscientia) and Garrett Morris (Oxford), as well as Torsten Schindler and Michael Reutlinger (Roche). My
+    research is funded by a Clarendon Scholarship (Oxford's flagship academic merit scholarship for graduate students)
+    and
+    additional awards from Brasenose College and Roche (Open Innovation Partnership).
+    <br><br>
+    Before moving to Oxford, I earned a BSc. in Interdisciplinary Sciences (chemistry, biology and CS) from ETH Zurich,
+    where I was supervised by Gisbert Schneider and Simone Schürle-Finke.
+    <br><br>
+    If you would like to talk about research, feel free to reach out via email, Twitter, or LinkedIn!
   </p>
 </div>
 
@@ -13,44 +28,44 @@ title: Home
 <!-- ========== PUBLICATIONS ========== -->
 <div class="docs-section" id="publications">
   <h4>Publications</h4>
-    <div class="tab-pane" id="papers-all">
-      {% for paper in site.data.publications.papers %}
-        <div class="paper">
-          <p class="title"><b>{{ paper.title }}</b></p>
-          <p>{{ paper.authors }}</p>
-          <p>{{ paper.venue }}</p>
-           <div class="paper-buttons">
-            {% if paper.paper_pdf %}
-              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
-            {% endif %}
-    
-            {% if paper.paper %}
-            <a class="button" href="{{ paper.paper }}" target="_blank">Paper</a>
-            {% endif %}
+  <div class="tab-pane" id="papers-all">
+    {% for paper in site.data.publications.papers %}
+    <div class="paper">
+      <p class="title"><b>{{ paper.title }}</b></p>
+      <p>{{ paper.authors }}</p>
+      <p>{{ paper.venue }}</p>
+      <div class="paper-buttons">
+        {% if paper.paper_pdf %}
+        <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
+        {% endif %}
 
-            {% if paper.slides %}
-              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
-            {% endif %}
+        {% if paper.paper %}
+        <a class="button" href="{{ paper.paper }}" target="_blank">Paper</a>
+        {% endif %}
 
-            {% if paper.poster %}
-              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
-            {% endif %}
+        {% if paper.slides %}
+        <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+        {% endif %}
 
-            {% if paper.video %}
-              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
-            {% endif %}
+        {% if paper.poster %}
+        <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
+        {% endif %}
 
-            {% if paper.code %}
-              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
-            {% endif %}
+        {% if paper.video %}
+        <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+        {% endif %}
 
-            {% if paper.data %}
-              <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
-            {% endif %}
+        {% if paper.code %}
+        <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+        {% endif %}
 
-          </div>
-        </div>
-      {% endfor %}
+        {% if paper.data %}
+        <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
+        {% endif %}
+
+      </div>
     </div>
+    {% endfor %}
   </div>
+</div>
 </div>
