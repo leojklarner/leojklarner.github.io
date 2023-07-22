@@ -2,9 +2,9 @@
 layout: default
 title: Home
 ---
-<!-- ========== BIO ========== -->
-<div class="docs-section" id="bio">
-  <h4>Bio</h4>
+<!-- ========== About ========== -->
+<div class="docs-section" id="about">
+  <h4>About</h4>
   PhD student, Clarendon Scholar in the Oxford Protein Informatics (OPIG) and Computational Statistics & Machine Learning (OxCSML) groups. Improving the robustness of deep learning algorithms in early-stage drug discovery.
   </p>
 </div>
@@ -18,7 +18,7 @@ title: Home
         <div class="paper">
           <p class="title"><b>{{ paper.title }}</b></p>
           <p>{{ paper.authors }}</p>
-          <p><i>{{ paper.venue }}</i></p>
+          <p>{{ paper.venue }}</p>
            <div class="paper-buttons">
             {% if paper.paper_pdf %}
               <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>

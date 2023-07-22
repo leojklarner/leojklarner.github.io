@@ -1,6 +1,7 @@
 name: "Leo Klarner"
 title: "<b>PhD Student in AI for Drug Discovery at University of Oxford</b>"
-subtitle: "Making predictive and generative deep learning algorithms more robust for applications in early-stage drug discovery. Supervised by Profs. Yee Whye Teh (<a href='https://csml.stats.ox.ac.uk/'>OxCSML</a>), Charlotte Deane and Garrett Morris (<a href='https://opig.stats.ox.ac.uk/'>OPIG</a>)."
+subtitle: "Making predictive and generative deep learning algorithms more robust for applications in early-stage drug discovery."
+supervisors: "Supervised by Profs. Yee Whye Teh (<a href='https://csml.stats.ox.ac.uk/' target='_blank'>OxCSML</a>), Charlotte Deane and Garrett Morris (<a href='https://opig.stats.ox.ac.uk/' target='_blank'>OPIG</a>)."
 email: "leo.klarner [AT] stats.ox.ac.uk"
 profile_pic: "/assets/profile-pics/profile_photo.jpg"
 twitter: "https://twitter.com/leoklarner"

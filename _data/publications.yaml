@@ -6,7 +6,7 @@ papers:
     paper: "https://arxiv.org/abs/2307.05439"
 
   - title: "Drug Discovery under Covariate Shift with Domain-Informed Prior Distributions over Functions"
-    authors: "<b>Leo Klarner</>, Tim G. J. Rudner, Michael Reutlinger, Torsten Schindler, Garrett M. Morris, Charlotte M. Deane, Yee Whye Teh "
+    authors: "<b>Leo Klarner</b>, Tim G. J. Rudner, Michael Reutlinger, Torsten Schindler, Garrett M. Morris, Charlotte M. Deane, Yee Whye Teh "
     venue: "<b>ICML 2023</b>"
     paper_pdf: "https://proceedings.mlr.press/v202/klarner23a.html"
 
@@ -23,7 +23,7 @@ papers:
     paper: "https://openreview.net/forum?id=Gc5oq8sr6A3&"
 
   - title: "GAUCHE: A Library for Gaussian Processes in Chemistry"
-    authors: "Ryan-Rhys Griffiths<sup>‡</sup>, Leo Klarner<sup>‡</sup>, Henry B. Moss<sup>‡</sup>, Aditya Ravuri<sup>‡</sup>, Sang Truong<sup>‡</sup>, Samuel Stanton<sup>‡</sup>, Gary Tom<sup>‡</sup>, Bojana Rankovic<sup>‡</sup>, Yuanqi Du<sup>‡</sup>, Arian Jamasb<sup>‡</sup>, et al."
+    authors: "Ryan-Rhys Griffiths, <b>Leo Klarner</b>, Henry B. Moss, Aditya Ravuri, Sang Truong, Samuel Stanton, Gary Tom, Bojana Rankovic, Yuanqi Du, Arian Jamasb, et al."
     venue: "<b>ELLIS/NeurIPS 2022 ML4Molecules Workshop</b>, Contributed Talk"
     venue: "<b>ICML 2022 AI4Science Workshop"
     paper_pdf: "https://arxiv.org/abs/2212.04450"
