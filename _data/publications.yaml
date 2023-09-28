@@ -6,7 +6,7 @@ papers:
     paper: "https://arxiv.org/abs/2307.05439"
 
   - title: "GAUCHE: A Library for Gaussian Processes in Chemistry"
-    authors: "Ryan-Rhys Griffiths, <b>Leo Klarner</b>, Henry B. Moss, Aditya Ravuri, et al."
+    authors: "Ryan-Rhys Griffiths*, <b>Leo Klarner*</b>, Henry B. Moss*, Aditya Ravuri*, et al."
     venue: "<b>NeurIPS 2023</b>
     paper: "https://arxiv.org/abs/2212.04450"
 
