@@ -2,26 +2,26 @@ papers:
 
   - title: "Metropolis Sampling for Constrained Diffusion Models"
     authors: "Nic Fishman, <b>Leo Klarner</b>, Emile Mathieu, Michael Hutchinson, Valentin de Bortoli"
-    venue: "<b>arXiv pre-print</b>"
+    venue: "<b>NeurIPS 2023</b>"
     paper: "https://arxiv.org/abs/2307.05439"
 
-  - title: "Drug Discovery under Covariate Shift with Domain-Informed Prior Distributions over Functions"
-    authors: "<b>Leo Klarner</b>, Tim G. J. Rudner, Michael Reutlinger, Torsten Schindler, Garrett M. Morris, Charlotte M. Deane, Yee Whye Teh "
-    venue: "<b>ICML 2023</b>"
-    paper_pdf: "https://proceedings.mlr.press/v202/klarner23a.html"
+  - title: "GAUCHE: A Library for Gaussian Processes in Chemistry"
+    authors: "Ryan-Rhys Griffiths, <b>Leo Klarner</b>, Henry B. Moss, Aditya Ravuri, et al."
+    venue: "<b>NeurIPS 2023</b>
+    paper: "https://arxiv.org/abs/2212.04450"
 
   - title: "Diffusion Models for Constrained Domains"
     authors: "Nic Fishman, <b>Leo Klarner</b>, Valentin De Bortoli, Emile Mathieu, Michael Hutchinson"
     venue: "<b>TMLR 2023</b>"
     paper: "https://openreview.net/forum?id=xuWTFQ4VGO"
 
-  - title: "Bias in the Benchmark: Systematic experimental errors in bioactivity databases confound multi-task and meta-learning algorithms"
+  - title: "Drug Discovery under Covariate Shift with Domain-Informed Prior Distributions over Functions"
+    authors: "<b>Leo Klarner</b>, Tim G. J. Rudner, Michael Reutlinger, Torsten Schindler, Garrett M. Morris, Charlotte M. Deane, Yee Whye Teh "
+    venue: "<b>ICML 2023</b>"
+    paper_pdf: "https://proceedings.mlr.press/v202/klarner23a.html"
+
+  - title: "Bias in the Benchmark: Systematic Experimental Errors in Bioactivity Databases Confound Multi-task and Meta-learning Algorithms"
     authors: "<b>Leo Klarner</b>, Michael Reutlinger, Torsten Schindler, Charlotte M. Deane, Garrett M. Morris"
     venue: "<b>NeurIPS 2022</b>"
-    venue: "<b>5th AI in Chemistry Conference</b>, Best Academic Poster Award<br><b>Oxford Stats Graduate Poster Session</b>, Best 1st Year Poster Award<br><b>ICML 2022 AI4Science Workshop</b>"
+    venue: "<b>5th AI in Chemistry Conference</b>, Best Poster Award<br><b>Oxford Stats Graduate Poster Session</b>, Best Poster Award<br><b>ICML 2022 AI4Science Workshop</b>"
     paper: "https://openreview.net/forum?id=Gc5oq8sr6A3&"
-
-  - title: "GAUCHE: A Library for Gaussian Processes in Chemistry"
-    authors: "Ryan-Rhys Griffiths, <b>Leo Klarner</b>, Henry B. Moss, Aditya Ravuri, Sang Truong, Samuel Stanton, Gary Tom, Bojana Rankovic, Yuanqi Du, Arian Jamasb, et al."
-    venue: "<b>ELLIS/NeurIPS 2022 ML4Molecules Workshop</b>, Contributed Talk<br><b>ICML 2022 AI4Science Workshop</b>"
-    paper: "https://arxiv.org/abs/2212.04450"
