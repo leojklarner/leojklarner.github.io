@@ -18,10 +18,9 @@ papers:
   - title: "Drug Discovery under Covariate Shift with Domain-Informed Prior Distributions over Functions"
     authors: "<b>Leo Klarner</b>, Tim G. J. Rudner, Michael Reutlinger, Torsten Schindler, Garrett M. Morris, Charlotte M. Deane, Yee Whye Teh "
     venue: "<b>ICML 2023</b>"
-    paper_pdf: "https://proceedings.mlr.press/v202/klarner23a.html"
+    paper: "https://proceedings.mlr.press/v202/klarner23a.html"
 
   - title: "Bias in the Benchmark: Systematic Experimental Errors in Bioactivity Databases Confound Multi-task and Meta-learning Algorithms"
     authors: "<b>Leo Klarner</b>, Michael Reutlinger, Torsten Schindler, Charlotte M. Deane, Garrett M. Morris"
-    venue: "<b>NeurIPS 2022</b>"
     venue: "<b>5th AI in Chemistry Conference</b>, Best Poster Award<br><b>Oxford Stats Graduate Poster Session</b>, Best Poster Award<br><b>ICML 2022 AI4Science Workshop</b>"
     paper: "https://openreview.net/forum?id=Gc5oq8sr6A3&"
