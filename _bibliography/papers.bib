@@ -1,0 +1,90 @@
+---
+---
+
+@inproceedings{
+    fishman2023metropolis,
+    title = {Metropolis Sampling for Constrained Diffusion Models},
+    author = {Nic Fishman and Leo Klarner and Emile Mathieu and Michael Hutchinson and Valentin De Bortoli},
+    author_show = {Nic Fishman and Leo Klarner and Emile Mathieu and Michael Hutchinson and Valentin De Bortoli},
+    booktitle = {Advances in Neural Information Processing Systems 37},
+    booktitle_show = {Advances in Neural Information Processing Systems},
+    booktitle_abbr = {NeurIPS},
+    year = {2023},
+    url = {https://openreview.net/pdf?id=jzseUq55eP},
+    pdf = {https://openreview.net/pdf?id=jzseUq55eP},
+    bibtex_show = {true},
+    abstract = {Denoising diffusion models have recently emerged as the predominant paradigm for generative modelling on image domains. In addition, their extension to Riemannian manifolds has facilitated a range of applications across the natural sciences. While many of these problems stand to benefit from the ability to specify arbitrary, domain-informed constraints, this setting is not covered by the existing (Riemannian) diffusion model methodology. Recent work has attempted to address this issue by constructing novel noising processes based on the reflected Brownian motion and logarithmic barrier methods. However, the associated samplers are either computationally burdensome or only apply to convex subsets of Euclidean space. In this paper, we introduce an alternative, simple noising scheme based on Metropolis sampling that affords substantial gains in computational efficiency and empirical performance compared to the earlier samplers. Of independent interest, we prove that this new process corresponds to a valid discretisation of the reflected Brownian motion. We demonstrate the scalability and flexibility of our approach on a range of problem settings with convex and non-convex constraints, including applications from geospatial modelling, robotics and protein design.},
+    selected = {true},
+}
+
+@inproceedings{
+    griffiths2023gauche,
+    title = {{GAUCHE}: A Library for Gaussian Processes in Chemistry},
+    author = {Ryan-Rhys Griffiths and Leo Klarner and Henry Moss and Aditya Ravuri and Sang T. Truong and Yuanqi Du and Samuel Don Stanton and Gary Tom and Bojana Rankovi{\'c} and Arian Rokkum Jamasb ... Alpha Lee and Bingqing Cheng and Alan Aspuru-Guzik and Philippe Schwaller and Jian Tang},
+    author_show = {Ryan-Rhys Griffiths and Leo Klarner and Henry Moss and Aditya Ravuri and Sang T. Truong and Yuanqi Du and Samuel Don Stanton and Gary Tom and Bojana Rankovi{\'c} and Arian Rokkum Jamasb ... Alpha Lee and Bingqing Cheng and Alan Aspuru-Guzik and Philippe Schwaller and Jian Tang},
+    booktitle = {Advances in Neural Information Processing Systems 37},
+    booktitle_show = {Advances in Neural Information Processing Systems},
+    booktitle_abbr = {NeurIPS},
+    year = {2023},
+    url = {https://openreview.net/pdf?id=vzrA6uqOis},
+    pdf = {https://openreview.net/pdf?id=vzrA6uqOis},
+    code = {https://github.com/leojklarner/gauche},
+    bibtex_show = {true},
+    abstract = {We introduce GAUCHE, an open-source library for GAUssian processes in CHEmistry. Gaussian processes have long been a cornerstone of probabilistic machine learning, affording particular advantages for uncertainty quantification and Bayesian optimisation. Extending Gaussian processes to molecular representations, however, necessitates kernels defined over structured inputs such as graphs, strings and bit vectors. By providing such kernels in a modular, robust and easy-to-use framework, we seek to enable expert chemists and materials scientists to make use of state-of-the-art black-box optimization techniques. Motivated by scenarios frequently encountered in practice, we showcase applications for GAUCHE in molecular discovery, chemical reaction optimisation and protein design. The codebase is made available at https://github.com/leojklarner/gauche.},
+    selected = {true},
+}
+
+
+@inproceedings{
+    klarner2023qsavi,
+    title={{D}rug {D}iscovery {u}nder {C}ovariate {S}hift {w}ith {D}omain-{I}nformed {P}rior {D}istributions {o}ver {F}unctions},
+    author={Leo Klarner and Tim G. J. Rudner and Michael Reutlinger and Torsten Schindler and Garrett M. Morris and Charlotte Deane and Yee Whye Teh},
+    author_show={Leo Klarner and Tim G. J. Rudner and Michael Reutlinger and Torsten Schindler and Garrett M. Morris and Charlotte Deane and Yee Whye Teh},
+    booktitle = {Proceedings of the 40th International Conference on Machine Learning},
+    booktitle_show = {International Conference on Machine Learning},
+    booktitle_abbr = {ICML},
+    year = {2023},
+    series = {Proceedings of Machine Learning Research},
+    publisher = {PMLR},
+    url = {https://proceedings.mlr.press/v202/klarner23a.html},
+    pdf = {https://proceedings.mlr.press/v202/klarner23a.html},
+    bibtex_show = {true},
+    abstract = {Accelerating the discovery of novel and more effective therapeutics is an important pharmaceutical problem in which deep learning is playing an increasingly significant role. However, real-world drug discovery tasks are often characterized by a scarcity of labeled data and significant covariate shift—a setting that poses a challenge to standard deep learning methods. In this paper, we present Q-SAVI, a probabilistic model able to address these challenges by encoding explicit prior knowledge of the data-generating process into a prior distribution over functions, presenting researchers with a transparent and probabilistically principled way to encode data-driven modeling preferences. Building on a novel, gold-standard bioactivity dataset that facilitates a meaningful comparison of models in an extrapolative regime, we explore different approaches to induce data shift and construct a challenging evaluation setup. We then demonstrate that using Q-SAVI to integrate contextualized prior knowledge of drug-like chemical space into the modeling process affords substantial gains in predictive accuracy and calibration, outperforming a broad range of state-of-the-art self-supervised pre-training and domain adaptation techniques.},
+    preview = {klarner2023qsavi.png},
+    code = {https://github.com/leojklarner/Q-SAVI},
+    selected = {true},
+}
+
+@inproceedings{
+    fishman2023diffusion,
+    title={Diffusion Models for Constrained Domains},
+    author={Nic Fishman and Leo Klarner and Valentin De Bortoli and Emile Mathieu and Michael Hutchinson},
+    author_show={Nic Fishman and Leo Klarner and Valentin De Bortoli and Emile Mathieu and Michael Hutchinson},
+    booktitle = {Transactions on Machine Learning Research},
+    booktitle_show = {Transactions on Machine Learning Research},
+    booktitle_abbr = {TMLR},
+    year = {2023},
+    series = {Proceedings of Machine Learning Research},
+    publisher = {PMLR},
+    url = {https://openreview.net/pdf?id=xuWTFQ4VGO},
+    pdf = {https://openreview.net/pdf?id=xuWTFQ4VGO},
+    bibtex_show = {true},
+    abstract = {Denoising diffusion models are a novel class of generative algorithms that achieve state-of-the-art performance across a range of domains, including image generation and text-to-image tasks. Building on this success, diffusion models have recently been extended to the Riemannian manifold setting, broadening their applicability to a range of problems from the natural and engineering sciences. However, these Riemannian diffusion models are built on the assumption that their forward and backward processes are well-defined for all times, preventing them from being applied to an important set of tasks that consider manifolds defined via a set of inequality constraints. In this work, we introduce a principled framework to bridge this gap. We present two distinct noising processes based on (i) the logarithmic barrier metric and (ii) the reflected Brownian motion induced by the constraints. As existing diffusion model techniques cannot be applied in this setting, we proceed to derive new tools to define such models in our framework. We then empirically demonstrate the scalability and flexibility of our methods on a number of synthetic and real-world tasks, including applications from robotics and protein design.},
+    selected = {true},
+}
+
+
+@inproceedings{
+    klarner2022bias,
+    title={Bias in the Benchmark: Systematic experimental errors in bioactivity databases confound<br>multi-task and meta-learning algorithms},
+    author={Leo Klarner and Michael Reutlinger and Torsten Schindler and Charlotte Deane and Garrett Morris},
+    author_show={Leo Klarner and Michael Reutlinger and Torsten Schindler and Charlotte Deane and Garrett Morris},
+    url = {https://openreview.net/pdf?id=Gc5oq8sr6A3},
+    pdf = {https://openreview.net/pdf?id=Gc5oq8sr6A3},
+    booktitle_show = {2nd ICML AI for Science Workshop},
+    year = {2022},
+    bibtex_show = {true},
+    abstract = {There is considerable interest in employing deep learning algorithms to predict pharmaceutically relevant properties of small molecules. To overcome the issues inherent in this low-data regime, researchers are increasingly exploring multi-task and meta-learning algorithms that leverage sets of related biochemical and toxicological assays to learn robust and generalisable representations. However, we show that the data from which commonly used multi-task benchmarks are derived often exhibits systematic experimental errors that lead to confounding statistical dependencies across tasks. Representation learning models that aim to acquire an inductive bias in this domain risk compounding these biases and may overfit to patterns that are counterproductive to many downstream applications of interest. We investigate to what extent these issues are reflected in the molecular embeddings learned by multi-task graph neural networks and discuss methods to address this pathology.},
+    selected = {true},
+    note={Best Poster Award at 5th AI for Chemistry Conference, 2022},
+}

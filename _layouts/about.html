@@ -1,0 +1,58 @@
+---
+layout: default
+---
+
+<!-- about.html -->
+      <div class="post">
+        <meta name="description" content="Leo Klarner -- Oxford PhD Student">
+        <header class="post-header">
+          <h1 class="post-title">
+            <!-- {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}</span> {%- else -%}{{ site.title }}{%- endif %} -->
+            {% if site.title == "blank" -%}<span style="font-weight:500;"> {{ site.first_name }} {{ site.middle_name }}{{ site.last_name }}</span> {%- else -%}{{ site.title }}{%- endif %}
+          </h1>
+          <p class="desc">{{ page.subtitle }}</p>
+        </header>
+
+        <hr class="solid">
+
+        <article>
+          {% if page.profile -%}
+          <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
+            &nbsp;<br>
+            {%- if page.profile.image %}
+              {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
+
+              {% if page.profile.image_circular %}
+                {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
+              {% else %}
+                {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
+              {% endif %}
+
+              {% include figure.html
+              path=profile_image_path
+              class=profile_image_class
+              alt=page.profile.image
+              cache_bust=true -%}
+            {% endif -%}
+            {%- if page.profile.address %}
+            <div class="address">
+              {{ page.profile.address }}
+            </div>
+            {%- endif %}
+          </div>
+          {%- endif %}
+
+          <div class="clearfix">
+            {{ content }}
+          </div>
+
+          <!-- Selected papers -->
+          <div id="publications" class="publications">
+          <h2>Publications</h2>
+          {% bibliography -f {{ site.scholar.bibliography }} %}
+
+          </div>
+
+        </article>
+
+</div>
