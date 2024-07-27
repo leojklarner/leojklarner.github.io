@@ -8,7 +8,7 @@ subtitle: >
 
 profile:
   align: right
-  image: profile_photo.jpg
+  image: website_pic.jpg
   image_circular: yes # crops the image to make it circular
   address: >
     <p style="text-align: center;">leo.klarner [at] stats.ox.ac.uk</p><br>
