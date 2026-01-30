@@ -3,7 +3,7 @@ layout: about
 title: Leo Klarner
 permalink: /
 subtitle: >
-  <b, style="color:black">PhD Student in AI for Drug Discovery at the University of Oxford</b> 
+  <b, style="color:black">ML Research Scientist at Isomorphic Labs</b> 
   
 
 profile:
@@ -11,7 +11,7 @@ profile:
   image: website_pic.jpg
   image_circular: yes # crops the image to make it circular
   address: >
-    <p style="text-align: center;">leo.klarner [at] stats.ox.ac.uk</p><br>
+    <p style="text-align: center;">leojklarner [at] gmail.com</p><br>
 
 
 news: false  # includes a list of news items
@@ -20,11 +20,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
+I'm an ML Research Scientist at Isomorphic Labs, where I work on generative AI for drug discovery.
 
-I'm a final-year PhD student in the Oxford Protein Informatics (OPIG) and CompStats & Machine Learning (OxCSML) groups. My research focuses on developing **more robust and data-efficient generative models** for applications in early-stage drug discovery and protein design. Specifically, I’m working on improving out-of-distribution generalisation ([ICML 2023](https://proceedings.mlr.press/v202/klarner23a/klarner23a.pdf), [ICML 2024](https://arxiv.org/abs/2407.11942)) and generative modelling under domain-informed constraints ([TMLR, 2023](https://arxiv.org/abs/2304.05364), [NeurIPS 2023](https://arxiv.org/pdf/2307.05439.pdf)).
+Before joining Iso, I completed my PhD in the Oxford CompStats & Machine Learning (OxCSML) and Protein Informatics (OPIG) groups. My research focused on developing more robust and data-efficient generative models for early-stage drug discovery and protein design, supervised by Profs Yee Whye Teh, Charlotte Deane and Garrett Morris. My work was funded by Oxford's flagship academic merit scholarship.
 
-This work requires familiarity with both modern deep learning and the realities of practical drug discovery, which I have been fortunate to pick up from my supervisors **Yee Whye Teh (Oxford/DeepMind)**, **Charlotte Deane (Oxford)** and **Garrett Morris (Oxford)**, as well as Torsten Schindler and Michael Reutlinger (Roche). My work is funded by a **Clarendon Scholarship** (Oxford's flagship academic merit scholarship for graduate students) and additional partnership awards from Brasenose College, Oxford and Roche.
+During my PhD I interned in the AI team at VantAI in New York and the Data Science and Analytics team at Roche in Basel.
 
-I feel strongly about **understanding the data I work with** and have spent many weeks in ChEMBL, PubChem and the PDB. I am also interested in curating **more realistic datasets and benchmarks** ([ICML 2023](https://proceedings.mlr.press/v202/klarner23a/klarner23a.pdf), [AI for Chemistry Best Poster Award](https://openreview.net/forum?id=Gc5oq8sr6A3&)) and am a main contributor of the open-source Gauche package ([NeurIPS 2023](https://arxiv.org/abs/2212.04450)).
-
-Before starting my PhD, I completed a BSc. in Interdisciplinary Sciences (chemistry, biology and CS) at ETH Zürich. During this time, I had the opportunity to design and synthesise antimicrobial peptides with Prof Gisbert Schneider and engineer bacteria for targeted cancer therapy with Prof Simone Schürle-Finke.
+Prior to Oxford, I studied Interdisciplinary Sciences (chemistry, biology, and CS) at ETH Zürich. During this time I designed antimicrobial peptides with Prof Gisbert Schneider and engineered bacteria for targeted cancer therapy with Prof Simone Schürle-Finke.

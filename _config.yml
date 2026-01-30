@@ -14,7 +14,7 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
 #   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 #   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
   
-keywords: Leo Klarner, leo klarner, Leo J. Klarner, leo j klarner, leojklarner, leoklarner, Leo, Klarner, AI, AI4Science, AI for Science, AI for Drug Discovery, ai for drug discovery, generative modeling, deep learning, Deep Learning, drug discovery, Drug Discovery, molecules, molecular property prediction, research, machine learning, Machine Learning,  probabilistic machine learning, statistics, drug discovery, Oxford, ETH, ETH Zurich
+keywords: Leo Klarner, leo klarner, leojklarner, leoklarner, Leo, Klarner, Isomorphic Labs, Google, DeepMind, AI, AI4Science, AI for Science, AI for Drug Discovery, generative modeling, deep learning, drug discovery, molecules, research, Machine Learning, statistics, drug discovery, Oxford, ETH, ETH Zurich
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: molecule.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
