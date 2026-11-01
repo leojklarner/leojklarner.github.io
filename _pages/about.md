@@ -22,7 +22,7 @@ social: false  # includes social icons at the bottom of the page
 
 I'm an ML Research Scientist at Isomorphic Labs, where I work on generative AI for drug discovery.
 
-Before joining Iso, I completed my PhD in the Oxford CompStats & Machine Learning (OxCSML) and Protein Informatics (OPIG) groups. My research focused on developing more robust and data-efficient generative models for early-stage drug discovery and protein design, supervised by Profs Yee Whye Teh, Charlotte Deane and Garrett Morris. My work was funded by Oxford's flagship academic merit scholarship.
+Before joining Iso, I completed my PhD in the Oxford CompStats & Machine Learning (OxCSML) and Protein Informatics (OPIG) groups. My research focused on developing more robust and data-efficient generative models for early-stage drug discovery and protein design, supervised by Profs Yee Whye Teh, Charlotte Deane and Garrett Morris. My work was funded by Oxford's flagship academic merit scholarship for graduate students.
 
 During my PhD I interned in the AI team at VantAI in New York and the Data Science and Analytics team at Roche in Basel.
 
